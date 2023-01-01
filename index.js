@@ -1,3 +1,3 @@
-const greeting = "Hello HClock"
+const {greeting} = require("./greeting.js")
 
-module.exports = {greeting}
+console.log(greeting)
